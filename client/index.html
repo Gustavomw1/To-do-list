@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+
+        <form id="todo-form">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="text" id="description" placeholder="Descrição" required>
+            <select id="priority" required>
+                <option value="">Prioridade</option>
+                <option value="1">Baixa</option>
+                <option value="2">Média</option>
+                <option value="3">Alta</option>
+            </select>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

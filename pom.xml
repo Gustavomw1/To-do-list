@@ -9,35 +9,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.5.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>com.example</groupId>
     <artifactId>todolist</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>todolist</name>
-    <description>Demo project for Spring Boot</description>
-
-    <licenses>
-        <license>
-            <name>The Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <id>gustavo</id>
-            <name>Gustavo Santos Ribeiro</name>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/seu-usuario/seu-projeto.git</connection>
-        <developerConnection>scm:git:ssh://github.com/seu-usuario/seu-projeto.git</developerConnection>
-        <url>https://github.com/seu-usuario/seu-projeto</url>
-        <tag>main</tag>
-    </scm>
 
     <properties>
         <java.version>21</java.version>

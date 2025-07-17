@@ -1,5 +1,15 @@
 package com.example.todolist.controller;
 
+// Define que essa classe é um controlador REST
+
+// Mapeia as requisições para o caminho "/todos"
+// Libera o acesso CORS para essas URLs (útil para frontend rodando localmente)
+// Injeta o serviço via construtor
+// Cria um novo item na tabela todo
+// Retorna a lista de todos os todos
+// Atualiza um todo existente
+// Deleta um todo pelo ID
+
 import java.util.List;
 
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,5 +1,10 @@
 package com.example.todolist.entity;
 
+// Marca a classe como uma entidade do JPA
+// Define o nome da tabela no banco como "todos"
+// Cria um campo "id" como chave primária com geração automática
+// Declara os atributos da entidade com seus getters e setters
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

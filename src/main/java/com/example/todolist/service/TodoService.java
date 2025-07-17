@@ -1,5 +1,13 @@
 package com.example.todolist.service;
 
+// Define a classe como um serviço do Spring
+
+// Injeta o repositório via construtor
+// Cria um novo todo e retorna a lista atualizada
+// Retorna todos os todos ordenados por prioridade (desc) e nome (asc)
+// Atualiza um todo e retorna a lista atualizada
+// Deleta um todo pelo ID e retorna a lista atualizada
+
 import java.util.List;
 
 import org.springframework.data.domain.Sort;
